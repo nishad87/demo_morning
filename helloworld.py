@@ -16,7 +16,7 @@ sc = SparkContext("local[*]", "spark-program")
 
 data = ["apple", "banana", "orange", "pear", "grape"]
 rdd=sc.parallelize(data)
-searchelement="app"
+searchelement="ban"
 rdd1=rdd.filter(lambda x:searchelement in x).collect()
 
 for i in rdd1:
