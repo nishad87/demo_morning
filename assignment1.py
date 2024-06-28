@@ -1,3 +1,6 @@
+'''
+Python 1st assignment
+'''
 def range_check_or(number):
     if number < -10 or number > 10:
         return True
